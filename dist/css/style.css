@@ -544,7 +544,121 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+body {
+  font-family: Jost;
+  font-size: 22px;
+  --tw-text-opacity: 1;
+  color: rgb(77 80 83 / var(--tw-text-opacity));
+}
+
+a {
+  font-size: 20px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(205 162 116 / var(--tw-text-opacity));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: DM Serif Display;
+  --tw-text-opacity: 1;
+  color: rgb(41 47 54 / var(--tw-text-opacity));
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media (min-width: 960px) {
+  .h1 {
+    font-size: 84px;
+  }
+}
+
+.h2 {
+  font-size: 50px;
+  line-height: 1.25;
+}
+
+.h3 {
+  font-size: 25px;
+}
+
+.btn {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 47 54 / var(--tw-bg-opacity));
+}
+
+.btn-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 62 74 / var(--tw-bg-opacity));
+}
+
+.btn-accent {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 162 116 / var(--tw-bg-opacity));
+}
+
+.btn-accent:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(184 140 93 / var(--tw-bg-opacity));
 }
