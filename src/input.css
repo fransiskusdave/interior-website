@@ -46,3 +46,9 @@ h6 {
 .nav-open {
   @apply h-[330px] pt-6;
 }
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply bg-primary;
+}

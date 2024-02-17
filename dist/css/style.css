@@ -635,20 +635,20 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mt-\[80px\] {
-  margin-top: 80px;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mb-9 {
   margin-bottom: 2.25rem;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
 }
 
 .flex {
@@ -661,6 +661,14 @@ video {
 
 .h-0 {
   height: 0px;
+}
+
+.h-\[340px\] {
+  height: 340px;
+}
+
+.h-\[400px\] {
+  height: 400px;
 }
 
 .h-\[640px\] {
@@ -679,14 +687,6 @@ video {
   height: 100%;
 }
 
-.h-\[400px\] {
-  height: 400px;
-}
-
-.h-\[340px\] {
-  height: 340px;
-}
-
 .w-\[576px\] {
   width: 576px;
 }
@@ -703,6 +703,10 @@ video {
   max-width: 1920px;
 }
 
+.max-w-\[450px\] {
+  max-width: 450px;
+}
+
 .max-w-\[453px\] {
   max-width: 453px;
 }
@@ -713,14 +717,6 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-\[370px\] {
-  max-width: 370px;
-}
-
-.max-w-\[450px\] {
-  max-width: 450px;
 }
 
 .flex-1 {
@@ -767,28 +763,29 @@ video {
   gap: 2rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded-\[70px\] {
-  border-radius: 70px;
 }
 
 .rounded-\[30px\] {
   border-radius: 30px;
 }
 
+.rounded-\[70px\] {
+  border-radius: 70px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-t {
   border-top-width: 1px;
+}
+
+.bg-accent-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 240 236 / var(--tw-bg-opacity));
 }
 
 .bg-accent\/15 {
@@ -805,9 +802,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-accent-secondary {
+.bg-red-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(244 240 236 / var(--tw-bg-opacity));
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-hero {
@@ -830,9 +827,18 @@ video {
   padding: 2.25rem;
 }
 
+.p-\[88px\] {
+  padding: 88px;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-\[88px\] {
+  padding-top: 88px;
+  padding-bottom: 88px;
 }
 
 .pb-\[110px\] {
@@ -988,6 +994,13 @@ h6 {
 .nav-open {
   height: 330px;
   padding-top: 1.5rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 47 54 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 960px) {
