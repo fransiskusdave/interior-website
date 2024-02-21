@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,7 +47,7 @@
             class="fixed w-full h-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:top-0 lg:p-0 lg:border-none transition-all duration-300 lg:h-full text-center"
             id="nav-menu"
           >
-            <li><a href="#home">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#ourwork">Our Work</a></li>
@@ -139,7 +139,7 @@
       <!-- Steps End -->
 
       <!-- About -->
-      <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+      <section class="about mt-[80px] xl:mt-[200px] relative z-20" id="about">
         <div class="container mx-auto xl:px-0">
           <div
             class="flex flex-col lg:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]"
@@ -184,7 +184,10 @@
       <!-- About End -->
 
       <!-- Testimonial -->
-      <section class="testimonial mt-[80px] xl:mt-[200px] z-20 relative">
+      <section
+        class="testimonials mt-[80px] xl:mt-[200px] z-20 relative"
+        id="testimonials"
+      >
         <div
           class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6"
         >
@@ -309,7 +312,7 @@
       <!-- Brands End -->
 
       <!-- Work -->
-      <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+      <section class="work mt-[80px] xl:mt-[150px] relative z-20" id="ourwork">
         <div class="container mx-auto">
           <div class="text-center mb-24">
             <h2 class="work__title h2 mb-4">Follow Our Projects</h2>
@@ -431,7 +434,7 @@
       <!-- Stats End -->
 
       <!-- News -->
-      <section class="news mt-[80px] xl:mt-[150px] relative z-20">
+      <section class="news mt-[80px] xl:mt-[150px] relative z-20" id="news">
         <div class="container mx-auto px-0">
           <div class="max-w-[810px] mx-auto text-center mb-[52px]">
             <h2 class="news__title h2 mb-3">Articles & News</h2>
@@ -513,7 +516,10 @@
       <!-- News End -->
 
       <!-- Contact -->
-      <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+      <section
+        class="contact mt-[80px] xl:mt-[150px] relative z-20"
+        id="contact"
+      >
         <div
           class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]"
         >
@@ -529,6 +535,84 @@
         </div>
       </section>
       <!-- Contact End -->
+
+      <!-- Footer -->
+      <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+        <div class="container mx-auto px-0">
+          <div
+            class="flex flex-col lg:flex-row lg:gap-[70px] xl:gap-[100px] lg:mb-[120px] xl:mb-[150px]"
+          >
+            <div
+              class="footer__item w-full max-w-[400px] mb-8 text-center lg:text-left mx-auto"
+            >
+              <a href="#" class="flex justify-center lg:justify-start mb-8">
+                <img src="assets/logo.svg" alt="Interno" />
+              </a>
+              <p class="mb-8 text-xl">
+                It a long established fact that a reader will be distracted
+                lookings.
+              </p>
+              <ul
+                class="text-primary flex justify-center gap-[54px] lg:justify-start"
+              >
+                <li>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="ri-instagram-fill"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="flex flex-1 flex-col lg:flex-row text-center lg:text-left gap-12 lg:gap-16 xl:gap-[100px] lg:justify-end"
+            >
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Pages</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#ourwork">Our Work</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Services</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="#">Kitchen</a></li>
+                  <li><a href="#">Living Area</a></li>
+                  <li><a href="#">Bathroom</a></li>
+                  <li><a href="#">Bedroom</a></li>
+                </ul>
+              </div>
+
+              <div class="footer__item max-w-[260px] mx-auto lg:mx-0">
+                <h3 class="h3 mb-3">Contact</h3>
+                <div class="flex flex-col gap-6 text-xl">
+                  <p>Kalimantan Barat, Pontianak</p>
+                  <p>dave@interno.com</p>
+                  <p>0812 3342 1255</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p
+          class="footer__copyright text-center text-lg py-10 bg-white lg:border-t"
+        >
+          Copyright &copy; Fransiskus Dave 2024, All rights reserved.
+        </p>
+      </footer>
+      <!-- Footer End -->
     </main>
 
     <!-- Scroll Reveal -->
